@@ -1,0 +1,73 @@
+body, h1, h2, p, nav, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat';
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Обеспечивает минимальную высоту страницы */
+    background-image: url("хедер2.png"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+}
+
+header {
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+}
+
+header h1{
+    color: #33D04A;
+    text-transform: uppercase; 
+}
+
+nav {
+    text-align: left;
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 12px 20px;
+    border: 1px solid #33D04A; /* Цвет обводки */
+    border-radius: 7px; 
+}
+
+nav a:hover {
+    background-color: #1443BB; /* Цвет фона при наведении */
+    border-color: #fff;
+}
+
+.hero {
+    text-align: left;
+    flex: 1; /* Позволяет секции занимать всё доступное пространство */
+    padding: 50px 40px; 
+    line-height: 3em;
+}
+
+.hero .highlight {
+    color: #33D04A; 
+    font-weight: bold; 
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+.footer-link {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
